@@ -18,3 +18,35 @@
     background-color: #fff;
     margin-bottom: 40px;
 }
+
+/* TODO: Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+    .foods-container {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+        order: 2;
+    }
+}
+
+/* TODO: Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+    .foods {
+        display: flex;
+        flex-flow: row;
+        gap: 24px;
+        background-color: rgb(245, 255, 198);
+    }
+
+    .foods-container {
+        grid-template-columns: repeat(3, 1fr);
+        order: 1;
+        width: 80%;
+    }
+
+    .cart-container {
+        width: 25%;
+        order: 2;
+        margin-bottom: 0;
+    }
+}

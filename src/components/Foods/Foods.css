@@ -1,5 +1,45 @@
-.food-card {}
+.food-card {
+    background-color: #fff;
+    padding: 20px;
+
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 3px 3px 0px;
+
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.food-card h3 {
+    font-size: 26px;
+    font-weight: 500;
+    margin: 15px 0;
+}
+
+.food-card p {
+    font-size: 22px;
+    color: #333;
+    font-weight: 300;
+    margin-bottom: 20px;
+}
 
 .food-card img {
     max-width: 100%;
+}
+
+.food-card .btn {
+    padding: 16px 40px;
+    margin: 18px 0;
+    display: inline-block;
+    border: none;
+    background-color: rgb(255, 193, 123);
+    color: #333;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 15px;
+}
+
+.btn:hover {
+    background-color: rgb(255, 169, 71);
+    cursor: pointer;
 }

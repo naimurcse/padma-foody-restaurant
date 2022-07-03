@@ -12,13 +12,19 @@ const Restaurant = () => {
 
     // console.log(foods);
     return (
-        <div className='foods-container'>
-            {
-                foods.map(food => <Foods
-                    food={food}
-                    keys={food.id}
-                    ></Foods>)
-            }
+        <div className='foods'>
+            <div className="foods-container">
+
+                {
+                    foods.map(food => <Foods
+                        food={food}
+                        keys={food.id}
+                        ></Foods>)
+                }
+            </div>
+            <div className="cart-container">
+                <h2>Selected Food</h2>
+            </div>
         </div>
     );
 };

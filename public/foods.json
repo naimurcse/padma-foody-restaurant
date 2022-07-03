@@ -3,13 +3,13 @@
     "id": "62c1dd30423d0372b0363732",
     "price": 254,
     "image": "https://img.freepik.com/free-photo/bbq-with-variety-meats-complete-with-tomatoes-bell-peppers-white-plate_1150-22603.jpg?t=st=1656867926~exp=1656868526~hmac=133c38b0814a1da32ae0359c7a81070b94b46473083c568ac5bc14b93a93afb6&w=740",
-    "name": "Bbq with a variety of meats, complete with tomatoes and bell peppers on a white plate."
+    "name": "BBQ with a variety of meats"
   },
   {
     "id": "62c1dd30e5ece89cdb639eda",
     "price": 284,
     "image": "https://img.freepik.com/free-photo/pork-satay-with-peanut-sauce-sweet-sour-sauce-thai-food_1150-45522.jpg?w=740&t=st=1656872677~exp=1656873277~hmac=23104f86b55c13179491529549749f224fd5e78e5a38a2328bbaaef034738092",
-    "name": "Pork satay with peanut sauce or sweet and sour sauce,"
+    "name": "Pork satay with peanut sauce"
   },
   {
     "id": "62c1dd3020f9be6a31de981d",
@@ -20,8 +20,8 @@
   {
     "id": "62c1dd30f442f969f362ab33",
     "price": 599,
-    "image": "https://img.freepik.com/free-photo/delicious-italian-food_1147-165.jpg?t=st=1656880597~exp=1656881197~hmac=5a226e533d7dab7579613d4f3fd1523ffdaf58e3fb7432d9142f2d23a92f3938&w=740",
-    "name": "Delicious italian pizza"
+    "image": "https://img.freepik.com/free-photo/ketogenic-diet-breakfast-salt-salmon-salad-with-greens-cucumbers-eggs-avocado-keto-paleo-lunch_2829-20254.jpg?t=st=1656881062~exp=1656881662~hmac=7f9a200e766e3937bcbdd875221318c2be04af288b1fc5905ceff5cab2a76fa9&w=740",
+    "name": "Ketogenic diet breakfast"
   },
   {
     "id": "62c1dd3064dce66af7176cc8",
@@ -33,7 +33,7 @@
     "id": "62c1dd306d3b3d9902e6d7e2",
     "price": 406,
     "image": "https://img.freepik.com/free-photo/mixed-sushi-set-japanese-food_1339-3610.jpg?t=st=1656880597~exp=1656881197~hmac=695536331be48dae3ade6c733a9a4a106805b10d095f7c1e196ed5dd6f36d99b&w=826",
-    "name": "Mixed sushi set - japanese food"
+    "name": "Mixed sushi set"
   },
   {
     "id": "62c1dd302674aa4cb963f2ab",
@@ -57,18 +57,18 @@
     "id": "62c1dd309e9a53a10ea13cec",
     "price": 116,
     "image": "https://img.freepik.com/free-photo/bbq-with-variety-meats-complete-with-tomatoes-bell-peppers-white-plate_1150-22603.jpg?t=st=1656880967~exp=1656881567~hmac=8881d6fa335cd468ddd48eaf2f349dd8d840e81b1906f2881e765027be900cd3&w=740",
-    "name": "Bbq with a variety of meats, complete with tomatoes and bell peppers"
+    "name": "BBQ with a variety of meats"
   },
   {
     "id": "62c1dd3085acae03d03e0e9d",
     "price": 509,
     "image": "https://img.freepik.com/free-photo/comida-lifestyle-spaghetti-foodie-gastronomy_1350-47.jpg?t=st=1656880967~exp=1656881567~hmac=452b3b0164a90449616cfd31ec0ab6135391885d9b4670a85825aae7a1edc338&w=740",
-    "name": "Comida lifestyle spaghetti foodie gastronomy"
+    "name": "Comida lifestyle spaghetti food"
   },
   {
     "id": "62c1dd30dc15a2aef412e2e2",
     "price": 521,
     "image": "https://img.freepik.com/free-photo/pasta-fettuccine-bolognese-with-tomato-sauce-white-bowl_2829-20035.jpg?t=st=1656881062~exp=1656881662~hmac=f376f1e2160e7c9639f100e42109fe84dbcfc3ea49049b46d27508aa9b85baf2&w=740",
-    "name": "Pasta fettuccine bolognese with tomato sauce"
+    "name": "Pasta fettuccine bolognese"
   }
 ]

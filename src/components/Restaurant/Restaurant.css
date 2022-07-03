@@ -1,5 +1,20 @@
+.foods {
+    display: flex;
+    flex-flow: column;
+    padding: 24px;
+    background-color: rgb(245, 255, 198);
+}
+
 .foods-container {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(1, 1fr);
     gap: 20px;
+    order: 2;
+}
+
+.cart-container {
+    order: 1;
+    padding: 20px;
+    background-color: #fff;
+    margin-bottom: 40px;
 }

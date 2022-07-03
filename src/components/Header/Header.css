@@ -1,0 +1,12 @@
+header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    height: 100px;
+    width: 100%;
+}
+
+header h2 {
+    font-size: 30px;
+}

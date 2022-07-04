@@ -11,8 +11,8 @@ const Cart = ({cart}) => {
                 cart.map(food=><SelectedFood food={food}></SelectedFood>)
             }
             <div className="button-container">
-                <button className='btn' style={{padding:"16px 35px", backgroundColor:"green",color:"#fff"}}>Select Random 1</button>
-                <button className='btn' style={{backgroundColor:"tomato",color:"#fff"}}>Reset The Cart</button>
+                <button className='btn' id="select-random-btn">Select Random 1</button>
+                <button className='btn' id="reset-btn">Reset The Cart</button>
             </div>
         </div>
     );

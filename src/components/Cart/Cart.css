@@ -28,6 +28,31 @@ h2 {
     font-size: 15px;
 }
 
+#select-random-btn {
+    padding: 16px 35px;
+    background-color: #08b877;
+    color: #fff;
+    transition: all 0.3s;
+}
+
+#select-random-btn:hover {
+    background-color: #06a369;
+}
+
+#reset-btn {
+    border: 1px solid #333;
+    color: #333;
+    background-color: #fff;
+    transition: all 0.3s;
+}
+
+#reset-btn:hover {
+    border: 1px solid #333;
+    color: #fff;
+    background-color: #333;
+
+}
+
 /* TODO: Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) {
     .button-container {

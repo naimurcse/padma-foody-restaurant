@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 import RandomFood from '../RandomFood/RandomFood';
 import SelectedFood from '../SelectedFood/SelectedFood';
 import './Cart.css';

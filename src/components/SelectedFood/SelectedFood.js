@@ -5,8 +5,10 @@ import './SelectedFood.css';
 
 
 const SelectedFood = ({food}) => {
-    const {image,name} = food;
-
+    const {id,image,name} = food;
+    const removeItem = id =>{
+        console.log(id);
+    }
     return (
         <div className='selected-food'>
             <div className="food-content">
@@ -15,7 +17,7 @@ const SelectedFood = ({food}) => {
                 </div>
                 <p>{name}</p>
             </div>
-            <p className='remove-icon'><FontAwesomeIcon icon={faRemove} /></p>
+            <p className='remove-icon' onClick={()=>removeItem(id)}><FontAwesomeIcon icon={faRemove} /></p>
         </div>
     );
 };

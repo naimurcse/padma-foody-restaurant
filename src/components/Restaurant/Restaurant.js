@@ -30,14 +30,22 @@ const Restaurant = () => {
         // console.log(newCart);
     }
 
+    const [random,setRandom] =useState([])
 
-    // Reset Cart
-    const resetCart = () =>{
-        console.log(cart);
+    const getRandomFood = () =>{
+        const randomIndex = Math.floor(Math.random() * cart.length);
+        const item = cart[randomIndex];
+        console.log(item);
+        setRandom(item);
     }
 
 
-    // console.log(cart);
+    // Reset Cart
+    const resetCart = () =>{
+        setCart([]);
+        setRandom([]);
+    }
+
     return (
         <div className='foods'>
             <div className="foods-container">
@@ -52,7 +60,9 @@ const Restaurant = () => {
             </div>
             <div className="cart-container">
                 <Cart cart={cart} 
-                resetCart={resetCart} 
+                resetCart={resetCart}
+                random={random}
+                getRandomFood={getRandomFood}
                 ></Cart>
             </div>
         </div>

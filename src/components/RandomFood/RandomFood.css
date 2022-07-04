@@ -1,7 +1,7 @@
 .random-food {
     margin: 20px;
     padding: 10px;
-    border: 1px solid #333;
+    border: 1px solid rgba(51, 51, 51, 0.421);
     text-align: center;
 }
 

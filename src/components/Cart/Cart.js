@@ -3,20 +3,12 @@ import RandomFood from '../RandomFood/RandomFood';
 import SelectedFood from '../SelectedFood/SelectedFood';
 import './Cart.css';
 
-const Cart = ({cart,resetCart}) => {
+const Cart = ({cart,getRandomFood,resetCart,random}) => {
     
     // const findRandom = cart.find(food=>food.id === selectedRandomFood.id)
     // Find random food
 
-    const [random,setRandom] =useState([])
-
-    const getRandomFood = () =>{
-        const randomIndex = Math.floor(Math.random() * cart.length);
-        const item = cart[randomIndex];
-        console.log(item);
-        setRandom(item);
-    }
-
+   
     return (
         <div className='cart-component'>
             <h2>Selected Food </h2>

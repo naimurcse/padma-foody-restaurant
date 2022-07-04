@@ -1,0 +1,12 @@
+.faq-container {
+    padding: 24px;
+}
+
+.faq-card {
+    margin-bottom: 36px;
+}
+
+.faq-card h2 {
+    padding-bottom: 15px;
+    margin: 0;
+}

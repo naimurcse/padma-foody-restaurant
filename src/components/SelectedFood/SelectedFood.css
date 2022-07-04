@@ -55,6 +55,10 @@
     .food-content {
         font-size: 18px;
     }
+
+    .selected-food {
+        padding: 5px 36px;
+    }
 }
 
 /* TODO: Large devices (desktops, 992px and up) */
@@ -66,5 +70,9 @@
 
     .image-area {
         display: none;
+    }
+
+    .selected-food {
+        padding: 5px 15px;
     }
 }

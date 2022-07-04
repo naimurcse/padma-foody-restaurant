@@ -60,7 +60,9 @@ h2 {
         flex-flow: row;
     }
 
-    .button-container .btn {}
+    h2 {
+        margin: 26px 36px;
+    }
 }
 
 /* TODO: Large devices (desktops, 992px and up) */
@@ -68,5 +70,9 @@ h2 {
     .button-container {
         display: flex;
         flex-flow: column;
+    }
+
+    h2 {
+        margin: 20px 15px;
     }
 }

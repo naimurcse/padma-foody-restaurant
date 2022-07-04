@@ -3,20 +3,40 @@ h2 {
 }
 
 .button-container {
-    text-align: center;
-    margin-top: 40px;
+    margin: 40px 0;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    /* text-align: center; */
+    /* margin: 0 auto; */
 }
 
 .button-container .btn {
     padding: 16px 40px;
-    margin: 10px 0;
     border: none;
     background-color: rgb(255, 193, 123);
     color: #333;
     font-weight: 300;
     text-transform: uppercase;
     font-size: 15px;
-    display: inline-flex;
-    align-items: center;
-    gap: 15px;
+}
+
+/* TODO: Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+    .button-container {
+        display: flex;
+        flex-flow: row;
+    }
+
+    .button-container .btn {}
+}
+
+/* TODO: Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+    .button-container {
+        display: flex;
+        flex-flow: column;
+    }
 }

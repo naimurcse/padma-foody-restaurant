@@ -1,0 +1,22 @@
+h2 {
+    margin-bottom: 30px;
+}
+
+.button-container {
+    text-align: center;
+    margin-top: 40px;
+}
+
+.button-container .btn {
+    padding: 16px 40px;
+    margin: 10px 0;
+    border: none;
+    background-color: rgb(255, 193, 123);
+    color: #333;
+    font-weight: 300;
+    text-transform: uppercase;
+    font-size: 15px;
+    display: inline-flex;
+    align-items: center;
+    gap: 15px;
+}

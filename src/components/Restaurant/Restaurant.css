@@ -3,6 +3,8 @@
     flex-flow: column;
     padding: 24px;
     background-color: rgb(245, 255, 198);
+
+    position: relative;
 }
 
 .foods-container {
@@ -14,9 +16,12 @@
 
 .cart-container {
     order: 1;
-    padding: 20px;
     background-color: #fff;
     margin-bottom: 40px;
+
+    position: sticky;
+    top: 0;
+    right: 0;
 }
 
 /* TODO: Medium devices (tablets, 768px and up) */

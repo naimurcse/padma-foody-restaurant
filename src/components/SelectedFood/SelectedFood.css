@@ -2,7 +2,17 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin: 18px 0;
+    gap: 10px;
+    margin: 5px 0;
+    padding: 5px 20px;
+}
+
+.choose-food {
+    font-weight: 500;
+    color: purple;
+    border-left: 3px solid purple;
+    padding-left: 17px;
+    background-color: #ffe9ff;
 }
 
 .image-area {
@@ -37,6 +47,7 @@
 .remove-icon:hover {
     color: #333;
     cursor: pointer;
+    transform: scale(1.5);
 }
 
 /* TODO: Medium devices (tablets, 768px and up) */

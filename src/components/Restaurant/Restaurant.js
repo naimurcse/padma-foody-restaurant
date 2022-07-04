@@ -13,7 +13,7 @@ const Restaurant = () => {
 
     let newCart;
     const addToCart = (selectedFood) =>{
-        console.log(selectedFood);
+        // console.log(selectedFood);
 
         const exists = cart.find(food=>food.id === selectedFood.id);
         if(!exists){
@@ -30,7 +30,14 @@ const Restaurant = () => {
         // console.log(newCart);
     }
 
-    console.log(cart);
+
+    // Reset Cart
+    const resetCart = () =>{
+        console.log(cart);
+    }
+
+
+    // console.log(cart);
     return (
         <div className='foods'>
             <div className="foods-container">
@@ -44,7 +51,9 @@ const Restaurant = () => {
                 }
             </div>
             <div className="cart-container">
-                <Cart cart={cart}></Cart>
+                <Cart cart={cart} 
+                resetCart={resetCart} 
+                ></Cart>
             </div>
         </div>
     );
